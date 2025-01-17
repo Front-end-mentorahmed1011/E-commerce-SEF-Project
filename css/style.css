@@ -213,6 +213,13 @@ nav.nav-bar{
         width: 100%;
         margin-left: 50px;
     }
+    .not-logged-in{
+        justify-content: flex-end;
+        font-size: 0.6em;
+        gap: 0px;
+        width: 100%;
+        margin-left: 50px;
+    }
     .user-links{
         gap: 5px;
         font-size: 1.1em;

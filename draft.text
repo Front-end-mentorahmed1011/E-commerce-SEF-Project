@@ -1,0 +1,155 @@
+  <!-- <div class="card" style="width: 30%;">
+                <img src="./images/Dell XPS 17 (9700) Skins - Full Colour _ Textured Matt Light Blue.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: Dell Laptop</h5>
+                  <h5 class="card-title">Price: 786$</h5>
+                  <h5 class="card-title" value="Laptops">Category: Laptops</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/Lexar ARMOR 700 Portable SSD 1TB.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: Lexar SSD</h5>
+                  <h5 class="card-title">Price: 120$</h5>
+                  <h5 class="card-title" value="Storages">Category: Storages</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/Keyboard.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: Keyboard</h5>
+                  <h5 class="card-title">Price: 60$</h5>
+                  <h5 class="card-title" value="Accessories">Category: Accessories</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/MSI 15_6_ Raider Gaming Laptop _Intel Core i9-13950HX - 16GB RAM - NVIDIA GeForce RTX 4060 - 1TB SSD in Black _ Nebraska Furniture Mart.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: MSI Laptop</h5>
+                  <h5 class="card-title">Price: 900$</h5>
+                  <h5 class="card-title" value="Laptops">Category: Laptops</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/microphone.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: Microphone</h5>
+                  <h5 class="card-title">Price: 80$</h5>
+                  <h5 class="card-title" value="Accessories">Category: Accessories</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/Lightly Used 15_6 Rose Gold HP Laptop.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: HP Laptop</h5>
+                  <h5 class="card-title">Price: 760$</h5>
+                  <h5 class="card-title" value="Laptops">Category: Laptops</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/SSD Crucial P3 1TB NVMe PCIe M_2 2280 - CT1000P3SSD8.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: Crucial SSD</h5>
+                  <h5 class="card-title">Price: 180$</h5>
+                  <h5 class="card-title" value="Storages">Category: Storages</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/Headset.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: Gaming headphones</h5>
+                  <h5 class="card-title">Price: 50$</h5>
+                  <h5 class="card-title" value="Accessories">Category: Accessories</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/Logitech.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Product: Gaming Mouse</h5>
+                  <h5 class="card-title">Price: 100$</h5>
+                  <h5 class="card-title" value="Accessories">Category: Accessories</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/Samsung 980 PCIe®3_0 NVMe®SSD 1TB(MZ-V8V1T0B_AM).jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: Samsung SSD</h5>
+                  <h5 class="card-title">Price: 120$</h5>
+                  <h5 class="card-title" value="Storages">Category: Storages</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/image.png" class="card-img-top" alt="bagpack" height="80%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: Lenovo laptop</h5>
+                  <h5 class="card-title">Price: 400$</h5>
+                  <h5 class="card-title" value="Laptops">Category: Laptops</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%;">
+                <img src="./images/DISCO DURO SSD KINGSTON 480GB SSDNOW SA400.jpeg" class="card-img-top" alt="bagpack" height="60%" width="100%">
+                <div class="card-body">
+                  <h5 class="card-title">Product: Kingston SSD</h5>
+                  <h5 class="card-title">Price: 250$</h5>
+                  <h5 class="card-title" value="Storages">Category: Storages</h5>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" id="addToCart">Add to Cart</button>
+                    <i class="fa-solid fa-heart" id="favIcon"></i>
+                  </div>
+                </div>
+            </div> -->

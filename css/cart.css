@@ -1,0 +1,145 @@
+
+.header{
+    width: 100%;
+    height: 12%;
+    background-color: #234;
+    padding: 20px 60px;
+    a{
+        text-decoration: none;
+    }
+}
+
+.cart-Logout{
+    gap: 10px;
+    justify-content: end;
+    a {
+        font-size: 1em;
+        font-weight: bold;
+        color: rgb(235, 235, 235);
+    }
+}
+
+.card{
+    height: auto;
+    padding: 0;
+    transition: 0.3s;
+    margin-bottom: 0;
+    border: 0;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.44);
+    min-width: 49%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 20px 30px 10px ;
+}
+
+.card-title{
+    font-size: 0.85em;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.counter .calc{
+    display: flex;
+    gap: 20px;
+}
+.counter .calc span{
+    font-size: 1.5em;
+}
+.counter .calc .increment,
+.counter .calc .decrement{
+    cursor: pointer;
+
+}
+.holder{
+    gap:10%
+}
+.item_counts{
+    font-size: 1.2em;
+}
+ .card{
+    background-color: #eee;
+}
+.card:hover{
+    box-shadow: 0px 0px 8px 1px rgba(255, 33, 17, 0.447);
+    transform: scale(1.02);
+}
+.result{
+    font-size: 1.3em;
+}
+.none{
+    display: none;
+}
+
+  .swiper-slide{
+    width: 22%;
+    cursor: grab;
+  }
+  
+  .swiper-wrapper{
+    padding: 50px 0px;
+  }
+  .swiper-wrapper .card:hover{
+    box-shadow: 0px 0px 8px 1px rgba(34, 51, 68, 0.407);
+  }
+  .swiper-slide:active{
+    cursor: grabbing;
+  }
+  .swiper-pagination {
+    position: relative; 
+    bottom: 10px; 
+    text-align: center;
+    z-index: 1;
+  }
+.swiper-slide .card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 35%;
+}
+.swiper-slide .card-footer{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    justify-self: center;
+    margin-top: 0px;
+}
+.swiper-slide  .card-body  .card-title{
+    font-size: 0.8em;
+}
+.swiper-slide  .card-footer  i{
+    font-size: 1em;
+}
+.swiper-slide  .card-body{
+    padding: 0;
+}
+.lineAdjust{
+    width: 20%;
+    margin-top: -1px;
+    border: 1px solid #234;
+    opacity: 1;
+    transition: 0.3s
+}
+.section-header:hover .lineAdjust{
+    width: 25%
+}
+@media (max-width : 1000px){
+    .card{
+        min-width: 100%;
+    }
+    .cart-Logout{
+        font-size: 20px;
+    }
+    .counter{
+        gap: 30px;
+    }
+}

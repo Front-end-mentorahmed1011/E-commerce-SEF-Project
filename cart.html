@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Style+Script&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Home page</title>
+
+</head>
+<body>
+
+    <!--  the header of webpage -->
+    <header class="header">
+        <!-- the navbar -->
+        <nav class="nav-bar">
+            <!-- the brand -->
+            <a href="index.html" class="brand">Electronic Lovers</a>
+            <!-- the navbar links -->
+            <div class="header-contents">
+                <div class="logged-in cart-Logout flex">
+                   <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                  <button id="logout">Logout</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="chosen_product_section">
+        <div class="section-header container d-flex flex-column align-items-center mt-3">
+            <div class="section-title d-flex justify-content-between align-items-baseline gap-3">
+                <h3 class="title">Cart Items</h3>
+                <span class="item_counts" id="Quantity"></span>
+            </div>
+            <hr class="lineAdjust">
+        </div>
+        <div class="container chosen_products mt-3 d-flex gap-3 justify-content-between flex-wrap">
+             <!-- Items Rendered Here -->
+        </div>
+        <div class="conatiner section-footer text-center mt-4">
+            <p class="result" id="result"></p>
+          </div>
+    </section>
+<hr>
+    <!-- favourite section  -->
+    <section class="favourite_section mt-5">
+      <div class="section-header container d-flex flex-column align-items-center mt-3">
+        <div class="section-title d-flex justify-content-between align-items-baseline gap-3">
+            <h3 class="title">Favourite Products</h3>
+        </div>
+        <hr class="lineAdjust">
+    </div>
+
+      <div class="container favourite_Products mt-2 mb-5">
+        <div class="swiper-container container overflow-hidden h-auto">
+          <div class="swiper-wrapper d-flex" id="favouriteSection"> 
+            
+            
+            
+          
+           <!-- renderd products here -->
+
+            
+            
+            
+          </div>
+          <!-- Optional Pagination -->
+          <div class="swiper-pagination">
+
+          </div>
+      </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

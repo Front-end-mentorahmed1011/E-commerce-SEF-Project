@@ -200,7 +200,7 @@ nav.nav-bar{
         padding: 0px 10px;
     }
     .brand{
-        font-size: 0.8em;
+        font-size: 0.7em;
         width: 60%;
     }
     .user_name{
@@ -215,8 +215,8 @@ nav.nav-bar{
     }
     .not-logged-in{
         justify-content: flex-end;
-        font-size: 0.6em;
-        gap: 0px;
+        font-size: 0.7em;
+        gap: 10px;
         width: 100%;
         margin-left: 50px;
     }
@@ -230,8 +230,10 @@ nav.nav-bar{
     }
     .dropdown-menu{
         font-size: 0.9em;
-        width: 100px;
-        transform: translate(0px , 0px)
+        min-width: 100px;
+        max-width: 200px;
+        max-height: 100px;
+        overflow-y: auto;
     }
     .search_field{
         padding: 0px 20px;
